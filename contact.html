@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تماس با من - حنا کرمخانی</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- هدر و منو -->
+  <header>
+    <h1>حنا کرمخانی</h1>
+    <p>دانشجوی مهندسی پزشکی</p>
+    <nav>
+      <a href="index.html">خانه</a>
+      <a href="about.html">درباره من</a>
+      <a href="work.html">سوابق کاری</a>
+      <a href="skills.html">مهارت‌ها</a>
+      <a href="projects.html">پروژه‌ها</a>
+      <a href="contact.html">تماس</a>
+    </nav>
+  </header>
+
+  <!-- بخش تماس با من -->
+  <section>
+    <h2>تماس با من</h2>
+    <p><strong>ایمیل:</strong> hana.karamkhani1381@yahoo.com</p>
+    <p><strong>شماره تماس:</strong> ۰۹۳۶۶۶۳۴۷۷۱</p>
+    <p><strong>آدرس:</strong> گلستان، بلوار ظفر جنوبی، کرمانشاه</p>
+
+    <h3>فرم تماس</h3>
+    <form action="https://formspree.io/f/myznplwk" method="POST">
+      <label for="name">نام شما:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">ایمیل شما:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">پیام شما:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+      <button type="submit">ارسال</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
